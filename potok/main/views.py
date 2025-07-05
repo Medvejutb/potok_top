@@ -30,7 +30,7 @@ def mainpage(request):
 
 def logout_user(r):
     logout(r)
-    print(f'Юзер логаут blya')
+    print(f'Юзер логаут')
     return redirect('mainpage')
 
 def inf1(r):

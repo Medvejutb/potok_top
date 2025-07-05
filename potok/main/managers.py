@@ -39,7 +39,7 @@ class CustomUserManager(BaseUserManager):
         extra_fields.setdefault('is_active', True)
 
         if not password:
-            raise ValueError('СУПЕРПОЛЬЗОВАТЕЛЬ ДОЛЖЕН ИМЕТЬ ПАРОЛЬ ХАХАХАХХА')
+            raise ValueError('СУПЕРПОЛЬЗОВАТЕЛЬ ДОЛЖЕН ИМЕТЬ ПАРОЛЬ')
 
         if extra_fields.get('is_staff') is not True:
             raise ValueError('суперюзер значит СУПЕР юзер, лол, это стафф.')

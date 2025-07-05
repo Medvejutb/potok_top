@@ -4,43 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c9c446a-26fd-420a-a8bd-037e5eb8403c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/potok_top.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/potok/main/backends.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/potok/main/bot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/potok/main/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/potok/main/managers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/potok/main/templates/main/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/potok/main/templates/main/log_in.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/potok/main/templates/main/reg.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/potok/main/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/potok/main/utills.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/potok/static/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/potok/static/css/inf1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/potok/static/css/mainpage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/potok/static/images/info.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/potok/static/images/potok_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/potok/static/img/haha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/potok/static/img/inf1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/potok/static/img/inf2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/potok/static/img/inf3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/potok/static/img/inf4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/potok/static/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/potok/static/img/p1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/potok/static/img/p2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/potok/static/img/p2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/potok/static/img/p3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/potok/static/img/p4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/potok/static/js/mp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/potok/static/vid/vid1.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/potok/static/vid/vid2.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/potok/static/vid/vid3.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/potok/static/vid/vid4.mp4" afterDir="false" />
+    <list default="true" id="6c9c446a-26fd-420a-a8bd-037e5eb8403c" name="Changes" comment="Последние штрихи">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/potok/main/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/potok/main/bot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/potok/main/managers.py" beforeDir="false" afterPath="$PROJECT_DIR$/potok/main/managers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/potok/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/potok/main/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,15 +34,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.bot.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/MyDir/pythonProject/potok_top/potok"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.bot.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/MyDir/pythonProject/potok_top/potok&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\MyDir\pythonProject\potok_top\potok" />
@@ -101,6 +69,35 @@
       <option name="presentableId" value="Default" />
       <updated>1746884100244</updated>
     </task>
+    <task id="LOCAL-00001" summary="Последние штрихи">
+      <option name="closed" value="true" />
+      <created>1751703614157</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1751703614157</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Последние штрихи">
+      <option name="closed" value="true" />
+      <created>1751703795530</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1751703795530</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Последние штрихи">
+      <option name="closed" value="true" />
+      <created>1751703962677</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1751703962677</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Последние штрихи" />
+    <option name="LAST_COMMIT_MESSAGE" value="Последние штрихи" />
   </component>
 </project>
