@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}POTOK LOUNGE{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/base.css' %}" alt="HUI EBAN">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="{% static 'images/potok_logo.png' %}" alt="Логотип">
+        </div>
+        <div class="info">
+            <img src="{% static 'images/info.png' %}" alt="info">
+        </div>
+        <nav class="nav">
+            {% if is_auth %}
+            <a href="{% url 'logout' %}">Выход</a>
+            <button id="to_loyal">Программа лояльности</button>
+            <a >Забронировать стол</a>
+            {% else %}
+            <a id="btn_show">Вход / регистрация</a>
+            <div id="pop_log" class="pop_log">
+                Введите свой tg-id.
+                <form id="log_form" method="post">
+                    {% csrf_token %}
+                    {{ form.as_p }}
+                    <button type="submit">Далее</button>
+                </form>
+                <br><br>
+                <a id="btn_hide">Закрыть</a>
+            </div>
+            <a id="to_promos" href="javascript:void(0)">Скидки и акции</a>
+            {% endif %}
+        </nav>
+    </header>
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+</body>
+</html>

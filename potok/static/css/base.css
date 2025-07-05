@@ -1,0 +1,60 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    border-bottom: 2px solid white;
+    background-color: black;
+    margin-bottom: 4%;
+    z-index: 100;
+    box-sizing: border-box;
+}
+.header .logo img {
+    height: 100%;
+}
+
+.header .info img {
+    height: 100%;
+}
+
+.header .info {
+    margin-right: auto;
+}
+
+.header .nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+body {
+    background-color: black;
+}
+
+body img, body video {
+    pointer-events: none;
+}
+
+#pop_log {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(0, 0, 0);
+    padding: 5%;
+    border: 2px solid white;
+    border-radius: 8px;
+    z-index: 1;
+    color: white;
+}
+
+#log_form {
+    padding: 10%;
+    background-color: rgb(75, 75, 75);
+}

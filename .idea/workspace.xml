@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6c9c446a-26fd-420a-a8bd-037e5eb8403c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/potok_top.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/potok/main/backends.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/potok/main/bot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/potok/main/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/potok/main/managers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/potok/main/templates/main/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/potok/main/templates/main/log_in.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/potok/main/templates/main/reg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/potok/main/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/potok/main/utills.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/potok/static/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/potok/static/css/inf1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/potok/static/css/mainpage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/potok/static/images/info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/potok/static/images/potok_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/potok/static/img/haha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/potok/static/img/inf1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/potok/static/img/inf2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/potok/static/img/inf3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/potok/static/img/inf4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/potok/static/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/potok/static/img/p1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/potok/static/img/p2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/potok/static/img/p2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/potok/static/img/p3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/potok/static/img/p4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/potok/static/js/mp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/potok/static/vid/vid1.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/potok/static/vid/vid2.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/potok/static/vid/vid3.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/potok/static/vid/vid4.mp4" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2wuGZT8qCBWOb17oi87nuscwMCv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.bot.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/MyDir/pythonProject/potok_top/potok"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\MyDir\pythonProject\potok_top\potok" />
+      <recent name="C:\MyDir\pythonProject\potok_top\potok\main\templates\main" />
+      <recent name="C:\MyDir\pythonProject\potok_top\potok\main\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\MyDir\pythonProject\potok_top\potok\main\templates\main" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-d68999036c7f-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.14475.56" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c9c446a-26fd-420a-a8bd-037e5eb8403c" name="Changes" comment="" />
+      <created>1746884100244</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1746884100244</updated>
+    </task>
+    <servers />
+  </component>
+</project>

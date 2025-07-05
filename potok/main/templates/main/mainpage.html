@@ -1,0 +1,103 @@
+{% extends 'main/base.html' %}
+{% load static %}
+
+{% block title %}Главная{% endblock %}
+
+{% block content %}
+
+{% block styles %}
+    <link rel="stylesheet" href="{% static 'css/mainpage.css' %}">
+{% endblock %}
+    <div class="block1">
+        <video class="vid1" autoplay muted loop>
+            <source src="{% static 'vid/vid1.mp4' %}" type="video/mp4">
+        </video>
+        <video class="vid2" autoplay muted loop>
+            <source src="{% static 'vid/vid2.mp4' %}" type="video/mp4">
+        </video>
+        <video class="vid3" autoplay muted loop>
+            <source src="{% static 'vid/vid3.mp4' %}" type="video/mp4">
+        </video>
+        <video class="vid4" autoplay muted loop>
+            <source src="{% static 'vid/vid4.mp4' %}" type="video/mp4">
+        </video>        
+    </div>
+    <img class="mainpage_logo" src="{% static 'img/logo.png' %}" alt="Логотип">
+
+    <div class="transition"></div>
+
+    <div class="inf">
+        <div id="inf1" class="inf1">
+            <div id="popup1" class="popa">
+                <span class="close">&times;</span>
+                <div class="popup-content">
+                    <h2>Развлечения</h2>
+                    <p>🎮 Плойка, 🎲 настолки, 💨 калики — всё, чтобы ты забыл, зачем вообще пришёл. Играй, дымись, угорай с друзьями — тут скуке не место.</p>
+                </div>
+            </div>
+            <img src="{% static 'img/inf1.png' %}" alt="">
+            <p>Развлечения</p>
+        </div>
+
+        <div id="inf2" class="inf2">
+            <div id="popup2" class="popa">
+                <span class="close">&times;</span>
+                <div class="popup-content">
+                    <h2>Атмосфера</h2>
+                    <p>🔥 Полумрак, мягкий свет, дым в воздухе и музон, который пробирает до позвоночника. Тут не просто атмосферно — тут хочется раствориться и забыть, что снаружи вообще есть мир.</p>
+                </div>
+            </div>
+            <img src="{% static 'img/inf2.png' %}" alt="">
+            <p>Атмосфера</p>
+        </div>
+
+        <div id="inf3" class="inf3">
+            <div class="popa" id="popup3">
+                <span class="close">&times;</span>
+                <div class="popup-content">
+                    <h2>Барная карта</h2>
+                    <p>🚬 Вкусный дым — это хорошо, но без бара ты просто сидишь и пялишься в потолок.<br><br>
+                    🍹 У нас барная карта — как шальная подруга: и классика есть, и что-то поинтереснее, и всегда найдётся коктейль, после которого начнёшь говорить с кальяном.<br><br>
+                    Виски, ром, шоты, авторские миксы — выбирай, пока не забыл, как читать.</p>
+                </div>
+            </div>
+            <img src="{% static 'img/inf3.png' %}" alt="">
+            <p>Барная карта</p>
+        </div>
+
+        <div id="inf4" class="inf4">
+            <div class="popa" id="popup4">
+                <span class="close">&times;</span>
+                <div class="popup-content">
+                    <h2>Дымное меню</h2>
+                    <p>💨 Дым у нас не просто дым — это ритуал.<br>
+                    Меню собрано так, что и новичок найдёт лёгкий заход, и бывалый затянется так, что глаза в кайф закроются.<br><br>
+                    Фруктовые, десертные, крепкие, миксы — как хочешь, так и дыми.<br>
+                    Настроение одно — вкус на выбор.</p>
+                </div>
+            </div>
+            <img src="{% static 'img/inf4.png' %}" alt="">
+            <p>Дымное меню</p>
+        </div>
+
+    </div>
+
+    <div class="promos" id="promos">
+    <h2>🔥 Скидки и акции</h2>
+    <ul>
+        <li><strong>🐍 Первые глотки:</strong> До 18:00 — <span class="highlight">-30% на первый кальян</span>.</li>
+        <li><strong>👯 Привёл друга:</strong> Тебе <span class="highlight">чай бесплатно</span>, другу — <span class="highlight">-20%</span>.</li>
+        <li><strong>🐢 Медленный вечер:</strong> Пн–Вт: кальян за <span class="highlight">2990 драм</span>.</li>
+        <li><strong>💑 Парный угар:</strong> Заказал два кальяна — <span class="highlight">плати за один</span>.</li>
+        <li><strong>🎉 День рождения:</strong> Вокруг ДР — <span class="highlight">кальян бесплатно</span>.</li>
+        <li><strong>🧠 Угадай вкус:</strong> Угадал микс — <span class="highlight">получай приз</span>.</li>
+        <li><strong>🔄 Повторник:</strong> Вернулся завтра — <span class="highlight">-25% на всё меню</span>.</li>
+    </ul>
+</div>
+
+
+    {% block scripts %}
+        <script src="{% static 'js/mp.js' %}"></script>
+    {% endblock %}
+
+{% endblock %}

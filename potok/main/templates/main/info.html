@@ -1,0 +1,33 @@
+{% extends 'potok/base.html' %}
+{% load static %}
+
+
+
+{% block title %}О нас{% endblock %}
+
+{% block content %}
+
+{% block styles %}
+    <link rel="stylesheet" href="{% static 'css/mainpage.css' %}">
+{% endblock %}
+
+    <div class="transition">
+    </div>
+    <div class="block3">
+        <img src="{% static 'img/p3.png' %}" alt="">
+        <p>Potok Lounge — тут халтуры нет.<br>
+            Кальяны — топовый металл и стекло, не Китай на соплях.<br>
+            Табак — свежак, без тухляка и сюрпризов, только проверенные бренды.<br>
+            Кокосовый уголь, без вони и химии.<br>
+            Чистый вкус, крепкий дым, никакого фуфла.<br>
+            Пришёл — раскурился — кайфанул.</p>
+    </div>
+    <div class="transition">
+    </div>
+    <div class="block4">
+        <img src="{% static 'img/p4.png' %}" alt="">
+        <p>Бренды, с которыми мы работаем</p>
+    </div>
+
+    
+{% endblock %}
